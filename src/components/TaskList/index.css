@@ -1,0 +1,81 @@
+.todos-task-list {
+  width: 100%;
+}
+
+@media screen and (min-width: 786px) {
+  .todos-task-list {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+}
+
+.todos-task-container {
+  border: #b5b7c4 solid 1.5px;
+  border-radius: 8px;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.todos-task-title-description-container {
+  margin-left: 10px;
+  margin-top: 18px;
+  width: 75%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.todos-task-delete-edit-btn {
+  border: 2px red solid;
+  width: 20%;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todos-task-delete-edit-btn {
+  background-color: transparent;
+  font-size: 12px;
+  color: #9e9ea5;
+  min-height: 10px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.todos-task-title {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+@media screen and (min-width: 786px) {
+  .todos-task-title {
+    font-size: 14px;
+  }
+}
+
+.todos-task-description {
+  color: #9e9ea5;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.star-img {
+  width: 20px;
+}
