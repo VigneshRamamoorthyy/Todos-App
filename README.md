@@ -7,7 +7,7 @@ A simple Todo application built with React that allows users to add, edit, delet
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Output] (Project Output)
+- [Project Output](#projectoutput)
 - [Credits](#credits)
 - [Contact](#contact)
 
