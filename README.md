@@ -39,13 +39,23 @@ To get a local copy up and running follow these simple steps:
    ```bash
    npm install
 
-## usage
-
-1. To start the development server, run:
+4. To start the development server, run:
    ```bash
    npm start
 
 The app will be available at http://localhost:3000.
+
+## usage
+
+- Open the application in your browser.
+- Use the form to add new tasks.
+- Use the buttons to edit, delete, or mark tasks as completed.
+- Use the filter button to show only completed tasks.
+
+## Project Output
+
+![image](https://github.com/VigneshRamamoorthyy/Todos-App/assets/121936513/7da59604-e6be-4c34-8b14-73b492d210da)
+
 
 ## credits
 
